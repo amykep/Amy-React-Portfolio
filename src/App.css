@@ -33,14 +33,14 @@
   --secondary-color: rgb(201, 201, 201);
   --third-color: rgb(245, 248, 250);
 }
-html{
+.html{
   scroll-behavior: smooth;
 }
-body {
+.body {
   color: var(--secondary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
-header{
+.header{
   width: "100%";
   padding: 20px 15px;
   display: flex;
@@ -49,25 +49,25 @@ header{
   position: sticky;
   position: -webkit-sticky;
   top:0;
-  background-image: url("../images/developer_bg01.jpg");
+  background-image: url("./images/developer_bg01.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
 }
-header h1{
+.header h1{
   font-size:xx-large;
 }
-header nav{
+.header nav{
   margin: 10px 7px 10px 7px;
 }
-header nav ul {
+.header nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }  
-header nav ul li a {
+.header nav ul li a {
   padding: 10px 15px;
   color: var(--secondary-color);
   font-weight: lighter;
@@ -75,7 +75,7 @@ header nav ul li a {
   text-decoration: none;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-header nav ul li a:hover {
+.header nav ul li a:hover {
   background: rgb(165, 225, 240);
   color: rgba(1, 14, 71, 0.5);
   border-radius: 15px;
@@ -83,7 +83,7 @@ header nav ul li a:hover {
 }
 .full-body{
   width:"100%";
-  background-image: url("../images/developer_bg01.jpg");
+  background-image: url("./images/developer_bg01.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -191,15 +191,15 @@ width: 400px;
   align-items: center;
 }
 @media screen and (max-width: 980px) {
-  header{
+  .header{
    padding-bottom: 0;
    justify-content: center;
   }
-  header h1{
+  .header h1{
     font-size: xx-large;
     text-align: center;
   }
-  header nav ul li a {
+  .header nav ul li a {
       font-size: x-large;
   }
   .about-info, .bottom-part{
@@ -207,15 +207,15 @@ width: 400px;
   }
 }
 @media screen and (max-width: 768px) {
-  header{
+  .header{
   padding-bottom: 0;
   justify-content: center;
  }
- header h1{
+ .header h1{
    font-size: xx-large;
    text-align: center;
  }
- header nav ul li a {
+ .header nav ul li a {
      font-size: x-large;
  }
  .about-info, .bottom-part, .con{
@@ -224,14 +224,14 @@ width: 400px;
 
 }
 @media screen and (max-width: 575px) {
-  body{
-      background-image: url("../images/developer_bg01.jpg");
+  .body{
+      /* background-image: url("./images/developer_bg01.jpg"); */
       background-size: cover;
       background-attachment: fixed;
       background-position: 100%;
   }
-  header{ 
-      background-image: url("../images/developer_bg01.jpg");
+  .header{ 
+      /* background-image: url("./images/developer_bg01.jpg"); */
       background-size: cover;
       background-attachment: fixed;
       background-position: 100%;
@@ -239,7 +239,7 @@ width: 400px;
   .full-body{
       background-image: none;
   }
- body, header, .full-body{
+ .body, header, .full-body{
   padding: 0;
   margin: 0;
  } 
