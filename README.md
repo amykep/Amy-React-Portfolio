@@ -41,8 +41,11 @@ npm start Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Screenshots
-Budget Tracker
-![Screenshot of note adding](./public/budget-tracker.png)</br>
+Amy's Portfolio
+![Screenshot of note adding](./src/images/amy-portfolio.png)</br>
 
 ## Github Page: 
 https://github.com/amykep/Amy-React-Portfolio
+
+## Deployed at:
+http://amykep.github.io/Amy-React-Portfolio/
