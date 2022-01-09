@@ -39,7 +39,19 @@ function App()
 
         <div className="right-side">
 
-          {!contactSelected && !portfolioSelected && !resumeSelected ? (
+          {!aboutSelected && !contactSelected && !resumeSelected ?
+            <Projects></Projects>
+
+            : !aboutSelected && !portfolioSelected && !resumeSelected ?
+              <ContactForm></ContactForm>
+
+              : !aboutSelected && !portfolioSelected && !contactSelected ?
+                <Resume></Resume>
+                : <About></About>
+          }
+
+
+          {/* {!contactSelected && !portfolioSelected && !resumeSelected ? (
             <>
               <About></About>
             </>
@@ -53,7 +65,7 @@ function App()
             </>
           ) : (
             <Projects></Projects>
-          )}
+          )} */}
 
           <Footer></Footer>
         </div>

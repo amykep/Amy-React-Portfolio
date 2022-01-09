@@ -1,5 +1,4 @@
 import React from 'react';
-import headerImg from "../../images/developer_bg01.jpg";
 
 
 function Header()

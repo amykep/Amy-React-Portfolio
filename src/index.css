@@ -211,6 +211,9 @@ textarea {
 .resume a:hover img{
 width: 400px;
 }
+.resume-text{
+  font-size: small;
+}
 .bottom-part{
   padding:0 45px 0 45px;
   display: flex;
