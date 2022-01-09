@@ -10,9 +10,9 @@ This version of my portfolio is built using react. It has the most recent projec
 
 
 ## Acceptance Criteria
-GIVEN a single-page application portfolio for a web developer</br>
-WHEN I load the portfolio</br>
-THEN I am presented with a page containing a header, a section for content, and a footer</br>
+GIVEN a single-page application portfolio for a web developer<br/>
+WHEN I load the portfolio<br/>
+THEN I am presented with a page containing a header, a section for content, and a footer<br/>
 WHEN I view the header</br>
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio</br>
 WHEN I view the navigation titles</br>
