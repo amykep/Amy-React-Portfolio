@@ -7,14 +7,17 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App()
 {
+  const [aboutSelected, setAboutSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
     <section>
-
       <div>
         <Header></Header>
       </div>
@@ -23,20 +26,35 @@ function App()
 
         <div className="left-side">
           <Nav
+            aboutSelected={aboutSelected}
+            setAboutSelected={setAboutSelected}
             contactSelected={contactSelected}
-            setContactSelected={setContactSelected}></Nav>
+            setContactSelected={setContactSelected}
+            portfolioSelected={portfolioSelected}
+            setPortfolioSelected={setPortfolioSelected}
+            resumeSelected={resumeSelected}
+            setResumeSelected={setResumeSelected}
+          ></Nav>
         </div>
 
         <div className="right-side">
 
-          {!contactSelected ? (
+          {!contactSelected && !portfolioSelected && !resumeSelected ? (
             <>
               <About></About>
-              <Projects></Projects>
             </>
           ) : (
-            <ContactForm></ContactForm>
+            <Resume></Resume>
           )}
+
+          {!aboutSelected && !portfolioSelected && !resumeSelected ? (
+            <>
+              <ContactForm></ContactForm>
+            </>
+          ) : (
+            <Projects></Projects>
+          )}
+
           <Footer></Footer>
         </div>
 

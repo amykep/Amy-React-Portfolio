@@ -6,13 +6,13 @@ function About()
     return (
         <div>
 
-            <section id="about" className="left-side about">
+            <section id="about" className="about">
                 <h2>About</h2>
                 <div className="about-info">
                     <div className="about-img">
                         <img src={aboutImage} alt="Abstract Woman Face" />
                     </div>
-                    <div class="about-text">
+                    <div className="about-text">
                         <p>Motivated professional full stack web developer leveraging background in engineering to
                             provide
                             comprehensive solutions. Earned a certificate in Full Stack Web Development from the
