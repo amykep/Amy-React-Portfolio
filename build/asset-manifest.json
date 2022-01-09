@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Amy-React-Portfolio/static/css/main.e932d7b0.css",
+    "main.js": "/Amy-React-Portfolio/static/js/main.4d218162.js",
+    "static/js/787.9b9c0edf.chunk.js": "/Amy-React-Portfolio/static/js/787.9b9c0edf.chunk.js",
+    "static/media/background-abstract.png": "/Amy-React-Portfolio/static/media/background-abstract.d8a50d8cd51d8cafe828.png",
+    "static/media/Extraordinary Cakes.png": "/Amy-React-Portfolio/static/media/Extraordinary Cakes.ec4d09087613817d85d3.png",
+    "static/media/dog-cat-breeds.png": "/Amy-React-Portfolio/static/media/dog-cat-breeds.b0ced62dc0f41de6aa19.png",
+    "static/media/E-SOLUTIONS WEBSITE.png": "/Amy-React-Portfolio/static/media/E-SOLUTIONS WEBSITE.c10498e52024c4deafca.png",
+    "static/media/resume.png": "/Amy-React-Portfolio/static/media/resume.3bd42818bf5a228e1e49.png",
+    "static/media/login-signup.png": "/Amy-React-Portfolio/static/media/login-signup.ab1a79e0531996e901a2.png",
+    "static/media/Resume.pdf": "/Amy-React-Portfolio/static/media/Resume.cb0734e539966be197c9.pdf",
+    "static/media/budget-tracker.png": "/Amy-React-Portfolio/static/media/budget-tracker.8f842d04fe159829207b.png",
+    "static/media/password-generator.png": "/Amy-React-Portfolio/static/media/password-generator.04080f7fe565431d22ed.png",
+    "static/media/abstract-woman-face.png": "/Amy-React-Portfolio/static/media/abstract-woman-face.abf5a1adbb53b381e45b.png",
+    "index.html": "/Amy-React-Portfolio/index.html",
+    "main.e932d7b0.css.map": "/Amy-React-Portfolio/static/css/main.e932d7b0.css.map",
+    "main.4d218162.js.map": "/Amy-React-Portfolio/static/js/main.4d218162.js.map",
+    "787.9b9c0edf.chunk.js.map": "/Amy-React-Portfolio/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e932d7b0.css",
+    "static/js/main.4d218162.js"
+  ]
+}
