@@ -153,6 +153,18 @@ textarea {
   background-size: cover;
 
 }
+.footer{
+  width: "100%";
+  padding: 10px 15px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+  /* background: var(--dark); */
+  background:#cb82fc;
+  /* background-image: url("./images/developer_bg01.jpg"); */
+  background-size: cover;
+
+}
 .header h1{
   font-size:xx-large;
   margin: 5px;

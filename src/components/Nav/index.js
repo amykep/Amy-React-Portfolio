@@ -3,10 +3,10 @@ import React from 'react';
 function Nav(props)
 {
     const {
-        // aboutSelected,
-        // contactSelected, 
-        // portfolioSelected,
-        // resumeSelected, 
+        aboutSelected,
+        contactSelected,
+        portfolioSelected,
+        resumeSelected,
 
         setAboutSelected,
         setContactSelected,
@@ -24,7 +24,7 @@ function Nav(props)
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
+                    <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
                         <span onClick={() => 
                         {
                             setAboutSelected(true);
@@ -34,7 +34,7 @@ function Nav(props)
                         }}>
                             About me </span>
                     </li>
-                    <li className="mx-2">
+                    <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
                         <span onClick={() =>
                         {
                             setPortfolioSelected(true);
@@ -44,7 +44,7 @@ function Nav(props)
                         }}>
                             Portfolio</span>
                     </li>
-                    <li className="mx-2">
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() =>
                         {
                             setContactSelected(true);
@@ -54,7 +54,7 @@ function Nav(props)
                         }}>
                             Contact</span>
                     </li>
-                    <li className="mx-2">
+                    <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
                         <span onClick={() =>
                         {
                             setResumeSelected(true);

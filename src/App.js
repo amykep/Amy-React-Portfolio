@@ -66,12 +66,9 @@ function App()
           ) : (
             <Projects></Projects>
           )} */}
-
-          <Footer></Footer>
         </div>
-
       </main>
-
+      <div className="footer"> <Footer></Footer></div>
     </section>
   )
 
